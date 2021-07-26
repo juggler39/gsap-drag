@@ -11,8 +11,9 @@ function init() {
         edgeResistance: 0.75,
         type: 'rotation',
         cursor: 'pointer',
-        type: 'x, y',
+        type: 'rotation',
         cursor: 'grab',
+        inertia: true,
         activeCursor: 'grabbing',
     });
 }
